@@ -431,6 +431,7 @@ diff -rup coreutils-8.28/src/cp.c coreutils-8.28-patched/src/cp.c
 +          else
 +          {
 +            /* isolate size */
+
 +            strchr ( output, '\t' )[0] = '\0';
 +            iTotalSize += atol ( output );
 +
